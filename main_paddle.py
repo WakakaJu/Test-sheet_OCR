@@ -7,7 +7,7 @@ def run_one(image, kind = 'total'):
     :param kind:
     'cut_block'是切成词组再识别
     'cut_line'是只按霍夫线切再识别
-    'small'是用于识别项目数少的单子(未开发完)
+    'small'是用于识别项目数少的小单子
     'total'是整体识别
     'print'是在图像上点击字，然后把点击的字的识别结果打印出来，功能相当于printloc_word.py文件
     :return:
